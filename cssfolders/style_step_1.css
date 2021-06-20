@@ -1,0 +1,74 @@
+
+/* design for the buttons */
+a.GoOutHref  ,.GoHomeHref{
+    text-decoration: none;
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.GoOutHref , .GoHomeHref {
+    display: inline-block;
+    background-color: none;
+    height: 90px;
+    width: 200px;
+    text-align: center;
+    border: solid 1px red;
+    border-radius: 50%;
+    padding-top: 25px;
+    background: orange; 
+  }
+  a.GoOutHref:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+a.GoHomeHref:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+/* //////////////////////////////////////////// */
+.campingclass{
+  width:100%;
+  height:950px;   
+} 
+.GoHomeHref {
+    position: absolute;
+    bottom:20%;
+    left:35%;
+    }
+
+.GoOutHref{
+    position: absolute;
+    bottom:20%;
+    left:55%;
+    }
+/* ////////////////Main Title/////////////////////// */
+.maintitle{
+    color: rgb(218, 101, 24);
+    position: absolute;
+    bottom:60%;
+    left:20%;
+    font-size: 3.5rem;
+     text-shadow: 12px 17px 15px rgba(241, 158, 4, 0.3), 
+    0px -4px 15px rgb(237, 237, 241); 
+    animation: animate  1s linear forwards;
+}
+@keyframes animate{
+  0%
+  {
+      opacity:0;
+      transform: rotateY(90deg);
+      filter:blur(10px);
+  }
+  50%
+  {
+      opacity:1;
+      transform: rotateY(Odeg);
+      filter:blur(10px);
+  }
+
+}
+/* /////////////////////////////////////////////////// */
+
+  

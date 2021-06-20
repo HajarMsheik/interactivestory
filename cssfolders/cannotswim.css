@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+.campingclass {
+    width:100%;
+    height:950px;  
+}
+
+.maintitle{
+    color: rgb(241, 119, 37);
+    position: absolute;
+    bottom:45%;
+    left:30%;
+    font-size: 5rem;
+     text-shadow: 12px 17px 15px rgba(214, 145, 18, 0.3), 
+    0px -4px 15px rgb(22, 12, 1); 
+    animation: animate  1s linear forwards;
+}
+@keyframes animate{
+  0%
+  {
+      opacity:0;
+      transform: rotateY(90deg);
+      filter:blur(10px);
+  }
+  50%
+  {
+      opacity:1;
+      transform: rotateY(Odeg);
+      filter:blur(10px);
+  }
+
+}
+/* /////////////////////////////////////////////////// */
+
+  

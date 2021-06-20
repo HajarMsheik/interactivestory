@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+.campingclass {
+    width:100%;
+    height:950px;  
+}
+/* design for the buttons */
+a.choice1  ,.choice2{
+    text-decoration: none;
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.choice1  , .choice2 {
+    display: inline-block;
+    background-color: none;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    border: solid 1px red;
+    border-radius: 50%;
+    padding-top: 25px;
+    background: orange; 
+  }
+  a.choice1:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+a.choice2:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+/* //////////////////////////////////////////// */ 
+.choice2 {
+    position: absolute;
+    bottom:20%;
+    left:35%;
+    }
+
+.choice1{
+    position: absolute;
+    bottom:20%;
+    left:55%;
+    }
+/* ////////////////Main Title/////////////////////// */
+.maintitle{
+    color: rgb(241, 119, 37);
+    position: absolute;
+    bottom:45%;
+    left:35%;
+    font-size: 5rem;
+     text-shadow: 12px 17px 15px rgba(214, 145, 18, 0.3), 
+    0px -4px 15px rgb(22, 12, 1); 
+    animation: animate  1s linear forwards;
+}
+@keyframes animate{
+  0%
+  {
+      opacity:0;
+      transform: rotateY(90deg);
+      filter:blur(10px);
+  }
+  50%
+  {
+      opacity:1;
+      transform: rotateY(Odeg);
+      filter:blur(10px);
+  }
+
+}
+/* /////////////////////////////////////////////////// */
+
+  
